@@ -1,0 +1,1084 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ViaBill payment gateway\n"
+"POT-Creation-Date: 2021-07-28 18:13+0300\n"
+"PO-Revision-Date: 2024-06-17 11:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.2; wp-6.0"
+
+#: includes/utilities/class-viabill-db-update.php:119
+#, php-format
+msgid ""
+"%1$s ViaBill Notice - %2$s Database is currently being updated in the "
+"background."
+msgstr ""
+"%1$s ViaBill Notifikation - %2$s Databasen bliver for øjeblikket opdateret i "
+"baggrunden."
+
+#: includes/utilities/class-viabill-db-update.php:157
+#, php-format
+msgid "%1$s ViaBill Notice - %2$s Database update has been finished."
+msgstr "%1$s ViaBill Notifikation - %2$s Databaseopdateringen er slut."
+
+#: viabill-woocommerce.php:431
+#, php-format
+msgid ""
+"%1$s ViaBill Notice - %2$s Your WooCommerce store is set to use %3$d decimal "
+"places. Please take in account that ViaBill payment gateway works only with "
+"2 decimal places and will round all received amounts to 2 decimal places."
+msgstr ""
+"%1$s ViaBill-meddelelse - %2$s Din WooCommerce-butik er indstillet til at "
+"bruge %3$d decimaler. Vær opmærksom på, at Viabill-betalingsgateway kun "
+"fungerer med 2 decimaler og vil afrunde alle modtagne beløb til 2 decimaler."
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:75
+#, php-format
+msgid ""
+"A Query selector for the element that contains the total price of the "
+"product on the single product page. In some cases it may prove practical to "
+"use the following selector: %1$s. With this selector the element will be "
+"found using this logic: %2$s."
+msgstr ""
+"En forespørgselsvælger for det element, der indeholder den samlede pris for "
+"produktet på indkøbskurvesiden. I nogle tilfælde kan det vise sig praktisk "
+"at bruge følgende vælger: %1$s. Dette elementet findes ved brug af denne "
+"logik: %2$s."
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:113
+msgid ""
+"A Query selector for the element that contains the total price on the cart."
+msgstr ""
+"En Query selector for elementet der indeholder totalprisen på checkudsiden."
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:151
+msgid ""
+"A Query selector for the element that contains the total price on the "
+"checkout page."
+msgstr ""
+"En Query selector for elementet der indeholder totalprisen på checkudsiden."
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:120
+msgid "A Query selector for the trigger element on the cart page."
+msgstr "En Query selector for trigger elementet på betalingsvalget."
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:158
+msgid "A Query selector for the trigger element on the checkout page."
+msgstr "En Query selector for trigger elementet på checkudsiden."
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:106
+msgid ""
+"A Query selector of the element before which a PriceTag will be inserted on "
+"the cart page. If left empty the PriceTag will be inserted afer cart totals."
+msgstr ""
+"En forespørgselsvælger af elementet, hvorefter en PriceTag indsættes på "
+"indkøbskurvesiden. Hvis den er tom, indsættes PriceTag i alt efter "
+"indkøbskurven."
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:144
+msgid ""
+"A Query selector of the element before which a PriceTag will be inserted on "
+"the checkout page. If left empty the PriceTag will be inserted, depending if "
+"the ViaBill payment gateway is enabled, in the payment method description or "
+"under the list of payment methods."
+msgstr ""
+"En forespørgselsvælger af elementet, hvorefter en PriceTag indsættes på "
+"betalingsvalget. Hvis det er tomt, indsættes PriceTag, afhængigt af om "
+"ViaBill-betalingsgateway er aktiveret, i betalingsmetodebeskrivelsen eller "
+"under listen over betalingsmetoder."
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:68
+msgid ""
+"A Query selector of the element before which a PriceTag will be inserted on "
+"the product page. If left empty the PriceTag will be inserted after the "
+"price."
+msgstr ""
+"En forespørgselsvælger af elementet, hvorefter PriceTag'et indsættes på "
+"varekortet. Hvis den er tom, indsættes PriceTag'et efter prisen."
+
+#: includes/utilities/viabill-settings-fields.php:43
+msgid "Advanced options"
+msgstr "Avancerede indstillinger"
+
+msgid "After Payment is Authorized"
+msgstr "Efter at betaling er godkendt"
+
+msgid "After Payment is Captured"
+msgstr "Efter betaling er hævet"
+
+#: includes/core/class-viabill-registration.php:327
+msgid "Already have a ViaBill account?"
+msgstr "Har du allerede en ViaBill-konto?"
+
+#: includes/core/class-viabill-order-admin.php:625
+msgid "Amount already captured"
+msgstr "Beløb, der allerede er hævet"
+
+#: includes/core/class-viabill-order-approved-status.php:59
+#, php-format
+msgid "Approved <span class=\"count\">(%s)</span>"
+msgid_plural "Approved <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: viabill-woocommerce.php:373
+msgid "Are you sure you want to cancel the order?"
+msgstr "Er du sikker på du ønsker at annullere ordren?"
+
+#: includes/utilities/viabill-settings-fields.php:95
+msgid "Auto-capture email"
+msgstr "Autocapture"
+
+#: includes/utilities/viabill-settings-fields.php:84
+msgid "Auto-capture payments"
+msgstr "Autocapture"
+
+#: includes/utilities/viabill-settings-fields.php:63
+msgid "Automatic redirect"
+msgstr "Automatisk redirect"
+
+#: includes/utilities/viabill-settings-fields.php:77
+msgid "Automatic refund"
+msgstr "Automatisk kreditering"
+
+#: includes/core/class-viabill-order-admin.php:670
+msgid "Cancel"
+msgstr "Afbestil"
+
+#: includes/core/class-viabill-order-admin.php:363
+msgid "Cancel order"
+msgstr "Annuller ordre"
+
+#: includes/core/class-viabill-order-admin.php:346
+#| msgid "Captured"
+msgid "Capture"
+msgstr "Hæv"
+
+#: includes/core/class-viabill-order-admin.php:669
+#, php-format
+msgid "Capture %1$s via %2$s"
+msgstr "Hæv %1$s via %2$s"
+
+#: includes/core/class-viabill-order-admin.php:652
+msgid "Capture amount"
+msgstr "Hæv beløb"
+
+#: includes/utilities/viabill-settings-fields.php:102
+msgid "Capture order on status change"
+msgstr "Hæv ordren ved at ændre ordrestatus"
+
+#: includes/core/class-viabill-connector.php:301
+#, php-format
+msgid "Captured %s via ViaBill payment gateway"
+msgstr "Hævet %s med ViaBill"
+
+#: includes/core/class-viabill-order-captured-status.php:59
+#, php-format
+msgid "Captured <span class=\"count\">(%s)</span>"
+msgid_plural "Captured <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:111
+msgid "Cart dynamic price selector"
+msgstr "Kurv dynamic price selector"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:118
+msgid "Cart dynamic price trigger"
+msgstr "Kurv dynamic price trigger"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:42
+msgid "Cart page"
+msgstr "Indkøbskurv"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:125
+msgid "Cart PriceTag CSS style"
+msgstr "Kurv PriceTag CSS style"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:104
+msgid "Cart PriceTag position"
+msgstr "Placering af PriceTag i kurv"
+
+#: viabill-woocommerce.php:376
+msgid ""
+"Changing order status to \"Refunded\" will automatically process refund for "
+"available captured amount by ViaBill payment gateway. You can turn this off "
+"in the plugin settings. This process cannot be undone, are you sure you want "
+"to continue?"
+msgstr ""
+"Ved at ændre ordrestatus til \"refunder\" vil beløbet automatisk blive "
+"krediteret. Denne handling kan ikke fortrydes. Er du sikker på du ønsker at "
+"fortsætte?"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:149
+msgid "Checkout dynamic price selector"
+msgstr "Checkout dynamic price trigger"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:156
+msgid "Checkout dynamic price trigger"
+msgstr "Checkout dynamic price selector"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:49
+msgid "Checkout page"
+msgstr "Betalingsvalg"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:163
+msgid "Checkout PriceTag CSS style"
+msgstr "PriceTag betalingsvalg CSS style"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:142
+msgid "Checkout PriceTag position"
+msgstr "Placering af PriceTag på betalingsvalg"
+
+#: includes/utilities/viabill-settings-fields.php:29
+msgid "Confirmation"
+msgstr "Bekræftelse"
+
+#: includes/utilities/viabill-settings-fields.php:31
+msgid "Confirmation message that will be added to the \"thank you\" page."
+msgstr ""
+"Bekræftelsesbesked der skal tilføjes til “Tak fordi du handlede her” siden."
+
+#: includes/core/class-viabill-registration.php:273
+msgid "Contact name"
+msgstr "Kontaktperson"
+
+#: includes/core/class-viabill-registration.php:238
+msgid "Country"
+msgstr "Land"
+
+#: includes/core/class-viabill-registration.php:221
+msgid ""
+"Create your ViaBill account by typing in your e-mail and selecting your "
+"country."
+msgstr ""
+
+#: includes/core/class-viabill-payment-gateway.php:152
+msgid "Current WooCommerce currency is unsupported and ViaBill is disabled."
+msgstr ""
+"Den nuværende valuta understøttes ikke af ViaBill. ViaBill er derfor blevet "
+"deaktiveret."
+
+#: includes/utilities/viabill-settings-fields.php:113
+msgid "Database Update"
+msgstr "Database opdateret"
+
+#: includes/core/class-viabill-notices.php:286
+#: includes/core/class-viabill-notices.php:298
+msgid "Date"
+msgstr "Dato"
+
+#: includes/utilities/viabill-settings-fields.php:56
+msgid "Debug log"
+msgstr "Debug log"
+
+#: includes/utilities/viabill-settings-fields.php:22
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/core/class-viabill-registration.php:226
+#: includes/core/class-viabill-registration.php:333
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/utilities/viabill-settings-fields.php:8
+msgid "Enable"
+msgstr "Aktiver"
+
+#: includes/utilities/viabill-settings-fields.php:65
+msgid "Enable automatic redirect to the ViaBill checkout form"
+msgstr "Aktiver automatisk redirect til ViaBill's checkout"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:19
+msgid "Enable display of PriceTags"
+msgstr "Aktivér visning af PriceTag"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:31
+msgid ""
+"Enable display of PriceTags for each location separately (PriceTags need to "
+"be enabled for location settings to take effect). Following sections contain "
+"advanced settings for each location."
+msgstr ""
+"Aktivér visning af PriceTags for hver separat placering. (PriceTag skal i "
+"øvrigt være aktigveret for at placeringsindstillingerne kan anvendes). De "
+"følgende sektioner indeholder avancerede indstillinger for hvert sted."
+
+#: includes/utilities/viabill-settings-fields.php:58
+msgid "Enable logging"
+msgstr "Aktiver logning"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:17
+msgid "Enable PriceTags"
+msgstr "Aktivér PriceTag"
+
+#: includes/utilities/viabill-settings-fields.php:10
+msgid "Enable ViaBill Payment Gateway"
+msgstr "Aktiver ViaBill betalingsmetode"
+
+#: includes/utilities/viabill-settings-fields.php:50
+msgid "Enable ViaBill Test Mode"
+msgstr "Aktiver testmiljø"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:13
+msgid ""
+"Enable ViaBill's PriceTags to obtain the best possible conversion, and "
+"inform your customers about ViaBill."
+msgstr ""
+"Aktiver ViaBills PriceTag for at opnå den bedst mulige konvertering og "
+"fortæl dine kunder om ViaBill."
+
+#: includes/core/class-viabill-registration.php:183
+msgid "Failed to login, please try again."
+msgstr "Login fejlede, prøv venligst igen."
+
+#: includes/core/class-viabill-connector.php:282
+#: includes/core/class-viabill-connector.php:431
+msgid "Failed to prepare arguments for API request"
+msgstr "Kunne ikke forberede argumenter til API-anmodning"
+
+#: includes/core/class-viabill-connector.php:327
+msgid "Failed to process capture."
+msgstr "Hævning af order fejlede"
+
+#: includes/core/class-viabill-connector.php:384
+#, php-format
+msgid "Failed to refund %s via ViaBill payment gateway"
+msgstr "Refundering af %s via ViaBill betalingsgateway fejlede"
+
+#: includes/core/class-viabill-registration.php:185
+msgid "Failed to register, please try again."
+msgstr "Registering fejlede, prøv venligst igen."
+
+#: includes/core/class-viabill-registration.php:363
+msgid "Forgot password?"
+msgstr "Glemt kodeord?"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:89
+#: includes/utilities/viabill-settings-fields-pricetag.php:127
+#: includes/utilities/viabill-settings-fields-pricetag.php:165
+msgid ""
+"Here you can add your own custom CSS style to the PriceTag wrapper. Please "
+"enter CSS properties following this example: \"margin-left: 20px; padding: "
+"10px;\"."
+msgstr ""
+"Her kan du tilføje din egen tilpassede CSS-stil til PriceTag-indpakningen. "
+"Indtast CSS-egenskaber efter dette eksempel: \"margin-left: 20px; padding: "
+"10px;\"."
+
+#: includes/utilities/viabill-settings-fields.php:72
+msgid "Hide orders that have not been sent to ViaBill"
+msgstr "Skjul ikke gennemførte ordrer"
+
+#: includes/utilities/viabill-settings-fields.php:70
+msgid "Hide pending orders"
+msgstr "Skjul ikke gennemførte ordrer"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.viabill.dk/"
+msgstr "https://www.viabill.dk/"
+
+#: includes/core/class-viabill-registration.php:298
+msgid "I've read and accept the"
+msgstr "Jeg accepterer at have læst og godkendt"
+
+#: includes/utilities/viabill-settings-fields.php:98
+msgid ""
+"If the Auto-capture is enabled this setting will skip sending email for "
+"approved order and will only send mail when the order is captured."
+msgstr ""
+"Bemærk: Hvis Autocapture er aktiveret vil systemet ikke sende en email når "
+"ordren er godkendt, men først når ordren er hævet."
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:82
+#, php-format
+msgid ""
+"If the price is variable then it is possible to trigger an %1$s. %2$s "
+"selector is also supported using this attribute."
+msgstr ""
+"Hvis prisen er variabel, er det muligt at udløse en %1$s. Valg af %2$s "
+"understøttes også ved hjælp af denne attribut."
+
+#: includes/utilities/class-viabill-db-update.php:100
+#, php-format
+msgid ""
+"If you updated the ViaBill plugin from before version 1.1.0 to a later "
+"version, we strongly advise you to start a database update to ensure that "
+"there are no order conflicts. Performing a database update will only update "
+"ViaBill related data in the database, no other data will be accessed or "
+"altered. Before starting the update we recommend you create a backup of your "
+"database! %1$s Start the update %2$s"
+msgstr ""
+"Hvis du opdaterede ViaBill-plugin før version 1.1.0 til en nyere version, "
+"anbefaler vi dig kraftigt at starte en databaseopdatering for at sikre, at "
+"der ikke er nogen ordrekonflikter. Udførelse af en databaseopdatering "
+"opdaterer kun ViaBill-relaterede data i databasen, ingen andre data får "
+"adgang til eller ændres. Før du starter opdateringen, anbefaler vi, at du "
+"opretter en sikkerhedskopi af din database! %1$s Start opdateringen %2$s"
+
+#: includes/core/class-viabill-order-admin.php:380
+#: includes/core/class-viabill-order-admin.php:430
+#: includes/core/class-viabill-order-admin.php:487
+#: includes/core/class-viabill-order-admin.php:691
+msgid "Invalid nonce."
+msgstr "Ugyldig nonce."
+
+#: includes/core/class-viabill-order-admin.php:391
+#: includes/core/class-viabill-order-admin.php:452
+#: includes/core/class-viabill-order-admin.php:498
+msgid "Invalid order ID, please try again."
+msgstr "Ugyldigt ordre ID, prøv venligst igen."
+
+#: includes/utilities/viabill-settings-fields.php:59
+#, php-format
+msgid ""
+"Log gateway events, stored in %s. Note: this may log personal information. "
+"We recommend using this for debugging purposes only and deleting the logs "
+"when finished."
+msgstr ""
+"Log gateway-begivenheder gemt i %s. Note: der kan være gemt personlige "
+"oplysninger. Vi anbefaler, at du kun bruger dette til fejlfinding og sletter "
+"logfilerne, når du er færdig."
+
+#: includes/core/class-viabill-registration.php:328
+msgid "Log in with your e-mail and password."
+msgstr "Log ind med din e-mail og adgangskode."
+
+#: includes/core/class-viabill-registration.php:366
+msgid "Login"
+msgstr "Login"
+
+#: includes/core/class-viabill-payment-gateway.php:281
+msgid "login or register"
+msgstr "log ind eller tilmeld dig"
+
+#: includes/utilities/viabill-settings-fields.php:38
+msgid ""
+"Message that will be added to the \"receipt\" page. Shown if automatic "
+"redirect is enabled."
+msgstr ""
+"Besked der skal tilføjes “kvitteringssiden”. Vises hvis automatisk redirect "
+"er aktiveret."
+
+#: includes/core/class-viabill-order-admin.php:702
+msgid "Missing order ID, can't display order capture form."
+msgstr "Ordrenummer mangler. Kan ikke vise hævemulighed."
+
+#: includes/core/class-viabill-order-admin.php:402
+#: includes/core/class-viabill-order-admin.php:464
+#: includes/core/class-viabill-order-admin.php:510
+msgid "Missing order, please try again."
+msgstr "Ordren mangler, prøv venligst igen."
+
+#: includes/utilities/viabill-settings-fields.php:51
+msgid "Mode used for testing purposes, disable this for live web shops."
+msgstr "Tilstand brugt til testformål. Deaktiver denne for live webshops."
+
+#: includes/core/class-viabill-payment-gateway.php:264
+msgid "My ViaBill"
+msgstr "MitViaBill"
+
+#: includes/core/class-viabill-notices.php:413
+msgid "My ViaBill Notices"
+msgstr "MitViaBill meddelelser"
+
+#: includes/core/class-viabill-registration.php:220
+msgid "New to ViaBill?"
+msgstr "Ny ved ViaBill?"
+
+#: includes/utilities/viabill-settings-fields.php:90
+#: includes/utilities/viabill-settings-fields.php:108
+msgid "No"
+msgstr "Nej"
+
+#: includes/core/class-viabill-notices.php:352
+msgid "No recorded notifications"
+msgstr "Ingen registrerede meddelelser"
+
+#: includes/core/class-viabill-notices.php:283
+#: includes/core/class-viabill-notices.php:295
+msgid "Notice"
+msgstr "Varsel"
+
+#: includes/core/class-viabill-payment-gateway.php:266
+msgid "Notifications"
+msgstr "Meddelelser"
+
+#: includes/utilities/viabill-settings-fields.php:97
+msgid "Only send email for captured orders."
+msgstr "Send kun e-mail for hævede ordrer."
+
+#: includes/core/class-viabill-registration.php:322
+msgid "OR"
+msgstr "ELLER"
+
+#: includes/core/class-viabill-api.php:237
+#: includes/core/class-viabill-order-admin.php:555
+msgid "Order approved by ViaBill."
+msgstr "Ordren er godkendt af ViaBill."
+
+#: includes/core/class-viabill-order-admin.php:583
+msgid "Order cancelled by ViaBill."
+msgstr "Ordren er annulleret af ViaBill."
+
+#: includes/core/class-viabill-order-admin.php:563
+msgid "Order captured by ViaBill."
+msgstr "Ordren er hævet med ViaBill."
+
+#: includes/core/class-viabill-order-admin.php:188
+msgid ""
+"Order has not been captured, nothing to refund through ViaBill payment "
+"gateway."
+msgstr ""
+"Ordren er ikke endnu ikke hævet og der er derfor intet at refundere gennem "
+"ViaBill."
+
+#: includes/core/class-viabill-order-admin.php:713
+msgid "Order ID is invalid, can't display order capture form."
+msgstr "Ordrenummer er ugyldigt. Kan ikke vise hævemulighed."
+
+#: includes/core/class-viabill-order-admin.php:578
+msgid "Order payment rejected by ViaBill."
+msgstr "Betaling afvist af ViaBill."
+
+#: includes/core/class-viabill-order-admin.php:572
+msgid "Order refunded by ViaBill."
+msgstr "Ordren er krediteret med ViaBill."
+
+#: includes/core/class-viabill-order-approved-status.php:32
+msgctxt "Order status"
+msgid "Approved by ViaBill"
+msgstr ""
+
+#: includes/core/class-viabill-order-captured-status.php:32
+msgctxt "Order status"
+msgid "Captured with ViaBill"
+msgstr ""
+
+#: viabill-woocommerce.php:378
+msgid ""
+"Order status you selected is no longer supported by ViaBill payment gateway "
+"and will be removed in the later versions. Please use \"On-hold\" instead of "
+"\"Approved by ViaBill\" and \"Processing\" instead of \"Captured by "
+"ViaBill\"."
+msgstr ""
+"Den ordrestatus du forsøger at vælge understøttes ikke længere af ViaBill's "
+"betalingsgateway og vil blive fjernet i fremtidige versioner. Anvend i "
+"stedet \"På hold\" i stedet for \"Godkendt af ViaBill\" og \"Behandler\" i "
+"stedet for \"Hævet med ViaBill\"."
+
+#: includes/core/class-viabill-order-admin.php:118
+msgid "Order successfully canceled at ViaBill."
+msgstr "Ordren er blevet annulleret."
+
+#: includes/core/class-viabill-order-admin.php:412
+msgid "Order successfully cancelled."
+msgstr "Ordren er blevet annulleret."
+
+#: includes/core/class-viabill-payment-gateway.php:359
+msgid "Order was done in <b>test mode</b>."
+msgstr "Ordren er afgivet i <b>testmiljø</b>."
+
+#: includes/core/class-viabill-registration.php:346
+msgid "Password"
+msgstr "Adgangskode"
+
+#: includes/utilities/viabill-settings-fields.php:24
+msgid ""
+"Payment method description that the customer will see on the checkout page."
+msgstr ""
+"Beskrivelse af betalingsmetoden, som brugeren skal se på betalingssiden."
+
+#: includes/core/class-viabill-connector.php:238
+#: includes/core/class-viabill-connector.php:412
+msgid "Payment method is not ViaBill."
+msgstr "Betalingsmetoden er ikke ViaBill."
+
+#: includes/core/class-viabill-registration.php:286
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: includes/core/class-viabill-payment-gateway.php:280
+msgid "Please"
+msgstr "Vær venlig"
+
+#: includes/core/class-viabill-payment-gateway.php:156
+msgid "Please change to one of the next currencies"
+msgstr "Skift venligst til en af de andre valutaer"
+
+#: includes/utilities/viabill-settings-fields.php:39
+msgid "Please click on the button below."
+msgstr "Klik venligst på knappen nedenfor."
+
+#: includes/core/class-viabill-order-admin.php:441
+msgid "Please enter valid amount."
+msgstr "Indtast et gyldigt beløb."
+
+#: viabill-woocommerce.php:49
+msgid ""
+"Please install and activate <a href=\"http://www.woothemes."
+"com/woocommerce/\" target=\"_blank\">WooCommerce</a> before activating "
+"ViaBill payment gateway!"
+msgstr ""
+"Venligst installer og aktiver <a href=\"http://www.woothemes."
+"com/woocommerce/\" target=\"_blank\">WooCommerce</a> før du aktiverer "
+"ViaBill betalingsgateway!"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:99
+msgid "PriceTag cart page"
+msgstr "PriceTag indkøbskurv"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:137
+msgid "PriceTag checkout page"
+msgstr "PriceTag betalingsvalg"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:11
+msgid "PriceTag general"
+msgstr "PriceTag generel"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:29
+msgid "PriceTag locations"
+msgstr "PriceTag placeringer"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:61
+msgid "PriceTag product page"
+msgstr "PriceTag varekort"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:73
+msgid "Product dynamic price selector"
+msgstr "Produkt dynamic price selector"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:80
+msgid "Product dynamic price trigger"
+msgstr "Produkt dynamic price trigger"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:35
+msgid "Product page"
+msgstr "Varekort"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:87
+msgid "Product PriceTag CSS style"
+msgstr "PriceTag varekort CSS style"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:66
+msgid "Product PriceTag position"
+msgstr "Placering af PriceTag på varekort"
+
+#: includes/utilities/viabill-settings-fields.php:36
+msgid "Receipt"
+msgstr "Kvittering"
+
+#: includes/core/class-viabill-order-admin.php:272
+msgid "Refresh"
+msgstr "Opdater"
+
+#: viabill-woocommerce.php:380
+msgid ""
+"Refreshing this order will contact ViaBill's system and attempt to sync this "
+"order with ViaBill's records. If you have configured the ViaBill - "
+"WooCommerce plugin settings to allow for interacting with order status "
+"changes, they will be executed at this time. You can disable these settings "
+"in the ViaBill - WooCommerce plugin settings. Would you like to continue?"
+msgstr ""
+"Opdatering af denne ordre vil kontakte ViaBill's system og forsøge at "
+"synkronisere denne ordre med ViaBill's optegnelser. Hvis du har konfigureret "
+"ViaBill - WooCommerce plugin-indstillingerne til at muliggøre interaktion "
+"med ændringer i ordrestatus, udføres de på dette tidspunkt. Du kan "
+"deaktivere disse indstillinger i ViaBill - WooCommerce-plugin-"
+"indstillingerne. Vil du gerne fortsætte?"
+
+#: includes/utilities/viabill-settings-fields.php:79
+msgid "Refund automatically on changing order status to \"Refunded\""
+msgstr ""
+"Krediter automatisk beløbet ved at ændre ordrestatus til \"Tilbagebetalt\""
+
+#: includes/core/class-viabill-registration.php:312
+msgid "Register"
+msgstr "Opret"
+
+#: includes/core/class-viabill-registration.php:446
+msgid ""
+"Registration didn't went as expected but, for now, everything seems alright."
+msgstr "Oprettelsen gik ikke som forventet, men alt lader til at være ok."
+
+msgid "Select the order status after the payment is authorized by Viabill"
+msgstr "Vælg ordrestatus efter betalingen er godkendt af Viabill"
+
+msgid "Select the order status after the payment is fully captured by Viabill"
+msgstr "Ordrestatus, efter ordren er hævet/captured ved ViaBill"
+
+#: includes/utilities/viabill-settings-fields.php:105
+msgid ""
+"Select this option in order to capture the whole order amount by manually "
+"switching the order status from, \"On Hold\" to \"Processing\"."
+msgstr ""
+"Vælg denne mulighed for at hæve hele order beløbet ved manuelt at skifte "
+"ordrestatus fra \"On Hold/på hold\" til \"Processing/behandler\"."
+
+#: includes/utilities/viabill-settings-fields.php:87
+msgid ""
+"Select this option to automatically capture all approved ViaBill orders. All "
+"automatically captured orders will be updated with an order status of, "
+"\"Processing\". Selecting this option will also disable the option to "
+"partially capture the order amount."
+msgstr ""
+"Vælg denne indstilling for automatisk at hæve alle godkendte ViaBill-ordrer. "
+"Alle automatisk hævede ordrer opdateres med en ordrestatus \"Behandling\". "
+"Hvis du vælger denne indstilling, deaktiveres muligheden for delvist at hæve "
+"ordre beløbet."
+
+#: viabill-woocommerce.php:399
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: includes/core/class-viabill-registration.php:253
+msgid "Shop URL (live)"
+msgstr "Shop URL (live)"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:44
+msgid "Show on cart summary"
+msgstr "Aktivér på indkøbskurv"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:51
+msgid "Show on checkout"
+msgstr "Aktivér på betalingsvalg"
+
+#: includes/utilities/viabill-settings-fields-pricetag.php:37
+msgid "Show on product page"
+msgstr "Aktivér på varekort"
+
+#: includes/core/class-viabill-api.php:201
+msgid ""
+"Signature mismatch! Order's data from ViaBill is different than the one in "
+"web shop."
+msgstr ""
+"Signature uoverensstemmelse! Ordredata fra ViaBill er anderledes end "
+"ordredata fra webshoppen."
+
+#: includes/core/class-viabill-order-admin.php:122
+msgid "Something went wrong while trying to cancel the order."
+msgstr "Der opstod en fejl i forbindelse med annullering af ordren."
+
+#: includes/core/class-viabill-connector.php:319
+#, php-format
+msgid "Something went wrong while trying to capture %s"
+msgstr "Noget gik galt i forsøget på at hæve %s"
+
+#: viabill-woocommerce.php:372
+msgid ""
+"Something went wrong with ViaBill capture form. Please refresh and try again."
+msgstr "Noget gik galt, med ViaBill hævningen. Prøv venligst igen."
+
+#: viabill-woocommerce.php:371
+msgid "Something went wrong, please refresh the page and try again."
+msgstr "Noget gik galt. Opdater siden og prøv igen."
+
+#: includes/core/class-viabill-connector.php:564
+#: includes/core/class-viabill-registration.php:118
+#: includes/core/class-viabill-registration.php:448
+msgid "Something went wrong, please try again."
+msgstr "Noget gik galt, prøv venligst igen."
+
+#: includes/core/class-viabill-order-admin.php:522
+msgid "Status request failed."
+msgstr "Statusanmodning mislykkedes."
+
+#: includes/core/class-viabill-connector.php:372
+#, php-format
+msgid "Successfully refunded %s via ViaBill payment gateway"
+msgstr "Succesfuld refunderet %s via ViaBill betalingsgateway"
+
+#: viabill-woocommerce.php:379
+msgid ""
+"Switching order status to \"Processing\" will try to capture full order "
+"amount through ViaBill, do you want to continue?"
+msgstr ""
+"Ved at ændre ordrestatus til \"Behandler\" vil du samtidig forsøge at hæve "
+"ordren. Er du sikker på du ønsker at fortsætte?"
+
+#. Various
+msgid "Tax ID"
+msgstr "CVR"
+
+msgid "Tax ID cannot be empty, or contain an invalid value. Please try again."
+msgstr "CVR kan ikke være tom eller indeholde en ugyldig værdi. Prøv igen."
+
+#: includes/core/class-viabill-registration.php:299
+msgid "terms & conditions"
+msgstr "betingelser og vilkår"
+
+#: viabill-woocommerce.php:267
+#, php-format
+msgid ""
+"The minimum required version of %1$s is %2$s. The version you are running is "
+"%3$s. Please update %1$s in order to use ViaBill."
+msgstr ""
+"Mindstekravet for version %1$s er %2$s. Versionen du anvender er %3$s. "
+"Opdatér venligst %1$s for at anvende ViaBill."
+
+#: includes/core/class-viabill-pricetag.php:313
+msgid ""
+"The ViaBill payment gateway provided by the ViaBill - WooCommerce plugin has "
+"been disabled due to there being more than one plugin offering the ViaBill "
+"payment gateway that is currently active. If you want to use the ViaBill - "
+"WooCommerce plugin to offer the ViaBill payment gateway, please deactivate "
+"the other plugins that have the ViaBill payment gateway enabled. You may "
+"then reactivate ViaBill - WooCommerce."
+msgstr ""
+
+#: includes/utilities/viabill-settings-fields.php:17
+msgid "This controls the title which the user sees during the checkout."
+msgstr "Dette bestemmer hvilken titel brugeren ser ifm. checkud."
+
+#: includes/core/class-viabill-order-admin.php:304
+msgid ""
+"This order is still using old ViaBill order status which is no longer "
+"supported, please run database update from the ViaBill plugin settings."
+msgstr ""
+"Denne ordre anvender den gamle ViaBill-ordrestatus, som ikke længere "
+"understøttes. Kør venligst databaseopdatering fra ViaBill-plugin-"
+"indstillingerne."
+
+#: includes/core/class-viabill-order-admin.php:300
+msgid ""
+"This order was processed by ViaBill payment gateway in sandbox/test mode."
+msgstr ""
+"Bemærk! Ordren er afgivet i ViaBill's testmiljø og er derfor en testbetaling."
+
+#: includes/utilities/viabill-settings-fields.php:15
+msgid "Title"
+msgstr "Titel"
+
+#: includes/core/class-viabill-order-admin.php:639
+msgid "Total available to capture"
+msgstr "Total tilgængelig til at hæve/capture"
+
+#: includes/core/class-viabill-connector.php:251
+msgid ""
+"Tried to capture order where available amount is greater than the remaining "
+"amount available to capture."
+msgstr ""
+"Beløbet er højere end det resterende, tilgængelige beløb, der kan hæves."
+
+#: includes/core/class-viabill-connector.php:264
+msgid "Tried to capture order where available amount is less or equal to 0."
+msgstr ""
+"Forsøgte at hæve ordre, hvor det tilgængelige beløb er mindre eller lig med "
+"0."
+
+#: includes/core/class-viabill-registration.php:198
+msgid "User is successfully logged-in."
+msgstr "Bruger er logget ind"
+
+#: includes/core/class-viabill-registration.php:200
+msgid "User is successfully registered."
+msgstr "Bruger er registeret"
+
+#. Author of the plugin/theme
+#: includes/core/class-viabill-payment-gateway.php:82
+#: includes/utilities/viabill-settings-fields.php:18
+msgid "ViaBill"
+msgstr "ViaBill"
+
+#: includes/utilities/class-viabill-icon-shortcode.php:69
+msgid "ViaBill - try, before you buy"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ViaBill - WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "ViaBill Gateway for WooCommerce."
+msgstr ""
+
+#: includes/core/class-viabill-payment-gateway.php:301
+#: viabill-woocommerce.php:289
+msgid ""
+"ViaBill is currently in sandbox/test mode, disable it for live web shops."
+msgstr "Bemærk. ViaBill kører i testmiljø."
+
+#: includes/core/class-viabill-registration.php:464
+#: includes/core/class-viabill-registration.php:465
+msgid "ViaBill Login/Register"
+msgstr "ViaBill Log ind/Opret konto"
+
+#: includes/utilities/class-viabill-icon-shortcode.php:72
+msgid "ViaBill logo"
+msgstr ""
+
+#: includes/core/class-viabill-notices.php:399
+msgid "ViaBill notice"
+msgstr ""
+
+#: includes/core/class-viabill-notices.php:274
+#: includes/core/class-viabill-notices.php:414
+msgid "ViaBill Notices"
+msgstr "ViaBill meddelelser"
+
+#: includes/core/class-viabill-payment-gateway.php:260
+msgid "ViaBill Payment Gateway"
+msgstr ""
+
+#: includes/core/class-viabill-payment-gateway.php:270
+#: includes/core/class-viabill-pricetag.php:298
+#: includes/core/class-viabill-pricetag.php:309
+msgid "ViaBill PriceTags"
+msgstr "ViaBill PriceTags"
+
+#: includes/core/class-viabill-notices.php:276
+#: includes/core/class-viabill-pricetag.php:316
+msgid "ViaBill settings"
+msgstr "ViaBill indstillinger"
+
+#: includes/core/class-viabill-order-admin.php:272
+msgid "ViaBill Status"
+msgstr ""
+
+#: includes/core/class-viabill-order-admin.php:263
+msgctxt "ViaBill status"
+msgid "Approved"
+msgstr ""
+
+#: includes/core/class-viabill-order-admin.php:264
+msgctxt "ViaBill status"
+msgid "Captured"
+msgstr ""
+
+#: includes/core/class-viabill-order-admin.php:265
+msgctxt "ViaBill status"
+msgid "Captured Partially"
+msgstr ""
+
+#: includes/core/class-viabill-order-admin.php:261
+msgctxt "ViaBill status"
+msgid "Pending"
+msgstr ""
+
+#: includes/core/class-viabill-order-admin.php:262
+msgctxt "ViaBill status"
+msgid "Pending Approval"
+msgstr ""
+
+#: includes/core/class-viabill-order-admin.php:266
+msgctxt "ViaBill status"
+msgid "Refunded"
+msgstr ""
+
+#: includes/core/class-viabill-order-admin.php:267
+msgctxt "ViaBill status"
+msgid "Refunded Partially"
+msgstr ""
+
+#: includes/core/class-viabill-order-admin.php:260
+msgctxt "ViaBill status"
+msgid "Waiting"
+msgstr ""
+
+#: includes/utilities/viabill-settings-fields.php:48
+msgid "ViaBill Test Mode"
+msgstr "ViaBill Testmiljø"
+
+#: includes/core/class-viabill-api.php:250
+msgid "ViaBill's new order status"
+msgstr "ViaBill's nye ordrestatus"
+
+#: includes/core/class-viabill-order-admin.php:124
+msgid "ViaBill's response"
+msgstr "ViaBill's svar"
+
+#: viabill-woocommerce.php:374
+msgid ""
+"Warning: this order has ViaBill status \"Pending Approval\". By switching "
+"the order status before ViaBill approves it, you assume all responsibility "
+"for the transaction if the order is shipped prior to approval or if the "
+"order is denied by ViaBill. To reduce risk, please change the order status "
+"only after ViaBill status is no longer \"Pending Approval\"."
+msgstr ""
+"Advarsel: Denne ordre afventer stadigvæk endelig behandling fra ViaBill. Ved "
+"at ændre ordrens status førend den er færdigbehandlet øges risikoen for fejl."
+" Du bedes i stedet afvente at ordren skifter status til \"Afventer "
+"godkendelse\"."
+
+#: viabill-woocommerce.php:375
+msgid ""
+"Warning: you are trying to capture price amount with more than 2 decimal "
+"places. ViaBill only supports 2 decimal places so the price will be rounded "
+"before sending it to ViaBill for capturing, this may lead to capturing less "
+"or more than the real amount. Confirming and proceeding with this you assume "
+"all responsibility for the transaction."
+msgstr ""
+"Advarsel: Du forsøger at hæve et beløb med mere end 2 decimaler. ViaBill "
+"understøtter kun beløb med 2 decimaler. Beløbet vil derfor blive afrundet "
+"til 2 decimaler, hvilket kan resultere i en lille afvigelse fra det "
+"oprindelige beløb."
+
+#: viabill-woocommerce.php:377
+msgid ""
+"Warning: You are trying to refund an order before capturing it, nothing will "
+"be refunded and the order status will be set as \"Refunded\", are you sure "
+"you want to continue?"
+msgstr ""
+"Advarsel: Du forsøger at kreditere en ordre der ikke er blevet hævet. Intet "
+"beløb vil blive krediteret, men ordrestatus vil skifte til \"Tilbagebetalt\"."
+" Er du sikker på du ønsker at fortsætte?"
+
+#: includes/utilities/viabill-settings-fields.php:80
+msgid ""
+"With this option enabled changing order status to \"Refunded\" will "
+"automatically refund the order by ViaBill payment gateway."
+msgstr ""
+"Aktiver denne mulighed for at kreditere ordrer automatisk ved at ændre "
+"ordrestatus til \"Tilbagebetalt\"."
+
+#: includes/utilities/viabill-settings-fields.php:73
+msgid ""
+"With this option enabled orders chosen to be payed with ViaBill but not sent "
+"to ViaBill will be hidden from order list in the admin."
+msgstr ""
+"Aktiver denne mulighed for at skjule ikke gennemførte ordrer med ViaBill."
+
+#: includes/utilities/viabill-settings-fields.php:66
+msgid ""
+"With this option enabled your customers will be automatically redirected to "
+"ViaBill checkout form. If the option is disabled the customer will have one "
+"more step that they will need to confirm in order to go to ViaBill checkout "
+"form."
+msgstr ""
+"Med denne indstilling aktiveret bliver dine kunder automatisk omdirigeret "
+"til ViaBill checkout-formular. Hvis indstillingen er deaktiveret, har kunden "
+"endnu et trin, som de bliver nødt til at bekræfte for at gå til ViaBill "
+"checkout-formularen."
+
+#: includes/utilities/viabill-settings-fields.php:91
+#: includes/utilities/viabill-settings-fields.php:109
+msgid "Yes"
+msgstr "Ja"
+
+#: viabill-woocommerce.php:308
+msgid ""
+"You can only have one ViaBill payment gateway active at the same time. The "
+"ViaBill payment gateway from the plugin ViaBill - WooCommerce has been "
+"disabled."
+msgstr ""
+
+#: includes/core/class-viabill-notices.php:398
+msgid "You have new"
+msgstr "Du har nyt"
+
+#: includes/core/class-viabill-payment-gateway.php:279
+msgid "You're not signed in."
+msgstr "Du er ikke logget ind."
+
+#: includes/utilities/viabill-settings-fields.php:32
+msgid "Your account has been charged and your transaction is successful."
+msgstr "Beløbet er tilføjet på din konto og transaktionen er gennemført."
